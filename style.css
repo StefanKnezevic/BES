@@ -26,6 +26,26 @@ label {
 p {
     font-size: 20px;
     line-height: 1.2;
+    /* margin: 0; */
+}
+section.baner p.podnaslov {
+    margin: 0;
+    font-size: 30px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.3;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#Logo {
+    animation: fadeIn 1s ease-in infinite alternate;
+
 }
 
 article p {
@@ -115,7 +135,7 @@ section.baner {
     padding: 7em 0 7em 0;
     background-attachment: fixed;
     background-position: center top;
-    background-image: url(Key2.jpg);
+    background-image: url(electricalHome.jpg);
     background-size: cover;
     text-align: center;
     opacity: 1;
